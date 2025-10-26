@@ -1,4 +1,9 @@
-    #include<stdio.h>
+/*Write a C program using Bankers Algorithm to implement following functionality.
+a)Accept Available Allocation Max
+b)Display Need Matrix
+c)Calculate & Display Safe Sequence
+*/
+#include<stdio.h>
 	int i,j,n,p,r,f,temp,s,need[20][20],allocation[20][20],work[10],available[10],max[20][20],safe[20],finish[10];
 	void check()
 	{
@@ -105,3 +110,4 @@ int main()
 	}
 	check();
 }
+
